@@ -21,3 +21,4 @@ console.log("attribute 4" , this.attribute );
 
 const percentageWithFn = percentOf(5, 80);
 const percentageWithFnBis = percentOfBis(5, 80);
+//GIT WAS HERE
