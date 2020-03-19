@@ -13,4 +13,4 @@ git checkout <nom de la branche ou hash du commit> # déplace la tête de lectur
 git branch <nom de la branche>                     #crée une branche en copiant la branche actuelle
 git branch                                         # liste les branches existantes
 git merge  <nom de la branche>                     # fusionne la branche nommé à l'intérieur de la branche actuelle en créant un commit
-git merge <nom de la branche> -m <"message du commit">
+git merge <nom de la branche> -m "<message du commit>" # même chose que la ligne précédente en fonction de l'ide
