@@ -8,5 +8,4 @@ git add <nom du fichier/dossier>                  # AJOUTER LES MODIFICATIONS AU
 git commit -m "<message à attacher au commit>"    #SAUVEGARDER LES MODIFICATION PRECEDEMENT AJOUTEES
 git status                                        # AFFICHE L'ETAT DE MON PROJET GGIT 0 CET INSTANT
 git log                                           #AFFICHE L'HISTORIQUE DES COMMITS
-
-
+git restore <nom du fichier / dossier>             #REMET LE CONTENU DU FICHIER 0 L'ETAT DU DERNIER COMMIT
