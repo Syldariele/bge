@@ -14,3 +14,5 @@ git branch <nom de la branche>                     #crée une branche en copiant
 git branch                                         # liste les branches existantes
 git merge  <nom de la branche>                     # fusionne la branche nommé à l'intérieur de la branche actuelle en créant un commit
 git merge <nom de la branche> -m "<message du commit>" # même chose que la ligne précédente en fonction de l'ide
+git remote                                         # liste les dépôts distants de notreprojet git
+git remote add <nom du dépôt distant> <adresse du dépôt> # ajoute un nouveau dépôt distant (origin dans 99% des cas)
