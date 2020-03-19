@@ -9,3 +9,6 @@ git commit -m "<message à attacher au commit>"    #SAUVEGARDER LES MODIFICATION
 git status                                        # AFFICHE L'ETAT DE MON PROJET GGIT 0 CET INSTANT
 git log                                           #AFFICHE L'HISTORIQUE DES COMMITS
 git restore <nom du fichier / dossier>             #REMET LE CONTENU DU FICHIER 0 L'ETAT DU DERNIER COMMIT
+git checkout <nom de la branche ou hash du commit> # déplace la tête de lecture (HEAD) sur la branche ou le commite choisi
+git branch <nom de la branche>                     #crée une branche en copiant la branche actuelle
+git branch                                         # liste les branches existantes
