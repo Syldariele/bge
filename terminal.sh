@@ -20,3 +20,4 @@ git remote add <nom du dépôt distant> <adresse du dépôt> # ajoute un nouveau
 git push <nom du dépôt> <branche distante>         #envoie la branche courante sur la branche distante du dépôt choisi
 git push -u <nom du dépôt> <branche distante>      # idem mais paramètre la branche local pour coresspondre à la branche distante
 git clone <adresse du dépôt> <nom du dossier>      # télécharcge la branche  par défaut du dépôt choisi dans le dossier voulu
+git pull <nom du dépôt> <brnahce distante>         # met à jour la brnahce actuelle avec les modifications effectuées sur la branche distante
