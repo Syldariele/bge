@@ -16,3 +16,4 @@ git merge  <nom de la branche>                     # fusionne la branche nommé 
 git merge <nom de la branche> -m "<message du commit>" # même chose que la ligne précédente en fonction de l'ide
 git remote                                         # liste les dépôts distants de notreprojet git
 git remote add <nom du dépôt distant> <adresse du dépôt> # ajoute un nouveau dépôt distant (origin dans 99% des cas)
+git push <nom du dépôt> <branche distante>         #envoie la branche courante sur la branche distante du dépôt choisi
