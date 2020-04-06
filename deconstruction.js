@@ -5,7 +5,7 @@ const myObject = {
     etc : "...",
 }
 
-const key1 = myObjetc.key1;
+const key1 = myObject.key1;
 
 //exemple objet :
 const user = {
@@ -27,7 +27,9 @@ const index0 = myArray[0];
 // exemple tbl :
 const myArticles = [
     { id: 1, title: "mon article", content: "bla", author: 1 },
-    {id: 2, title: "mon article 2", content: "bla", author: 1 },
-    {id: 3, title: "mon article 3", content: "bla", author: 1 },
-    {id: 4, title: "mon article 4", content: "bla", author: 1 },
+    { id: 2, title: "mon article 2", content: "bla", author: 1 },
+    { id: 3, title: "mon article 3", content: "bla", author: 1 },
+    { id: 4, title: "mon article 4", content: "bla", author: 1 },
 ]
+
+const title_of_my_article_3 = myArticles[2].title;
